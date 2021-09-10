@@ -1,0 +1,17 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  font-size: 40px;
+}
