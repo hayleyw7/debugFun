@@ -22,11 +22,13 @@ const setState = (newState) => {
 }
 
 const increment = () => {
-  setState({ displayValue: state.displayValue++ });
+  const newValue = state.displayValue++;
+  setState({ displayValue: newValue });
 }
 
 const decrement = () => {
-  setState({ displayValue: state.displayValue-- });
+  const newValue = state.displayValue++;
+  setState({ displayValue: newValue });
 }
 
 const init = () => {
